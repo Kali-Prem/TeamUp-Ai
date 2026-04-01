@@ -245,7 +245,3 @@ npm run build
 - end-to-end flow tests for onboarding and team formation
 
 ---
-
-## 📄 License
-
-Add your preferred license (for example: MIT).
