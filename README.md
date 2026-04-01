@@ -244,6 +244,21 @@ npm run build
 - richer notification center and unread counters
 - end-to-end flow tests for onboarding and team formation
 
+## Future Enhancements
+
+- file sharing in team chat (docs, PPTs, code zips, design assets)
+- institution collaborations for inter-college team building and mentorship
+- hackathon organizer collaborations for official event onboarding and team discovery
+- shared project workspaces with task boards and milestone tracking
+- in-app video/audio rooms for team standups and mentor calls
+- calendar sync for deadlines, submission windows, and event reminders
+- portfolio export with team projects, roles, and achievements
+- sponsor and industry mentor matchmaking for shortlisted teams
+- multilingual UI support for wider student adoption
+- analytics dashboards for institutions and event organizers
+- mobile app support for Android and iOS
+- API/webhook support for external platforms and campus systems
+
 ---
 
 ## 📄 License
