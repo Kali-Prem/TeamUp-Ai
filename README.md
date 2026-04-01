@@ -73,6 +73,16 @@ TeamUp provides an end-to-end workflow for student hackathon collaboration:
 - Backend: Firebase Authentication, Cloud Firestore
 - AI: Google GenAI SDK (`@google/genai`)
 
+### 🌐 Languages
+
+- **TypeScript** - Primary language for type-safe development
+- **JavaScript** - Framework and runtime support
+- **HTML** - Markup structure
+- **CSS** - Styling with Tailwind CSS
+- **SQL** - Database schema definition
+- **JSON** - Configuration and data formats
+- **Firestore Rules** - Security rule definitions
+
 ---
 
 ## 📁 Project Structure
