@@ -25,6 +25,7 @@ import { cn } from './lib/utils';
 export default function App() {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
+  const baseUrl = import.meta.env.BASE_URL || '/';
 
   useEffect(() => {
     let unsubscribeUser: (() => void) | null = null;
@@ -83,7 +84,7 @@ export default function App() {
   const isAdmin = user?.role === 'admin' || user?.email === 'as1917378@gmail.com';
 
   return (
-    <Router>
+    <Router basename={baseUrl}>
       <div className="min-h-screen bg-[#0a0a0a] text-white flex">
         {showSidebar && <Sidebar user={user} />}
         <main className={cn(
@@ -112,7 +113,7 @@ export default function App() {
                 <h1 className="text-6xl font-black mb-4">404</h1>
                 <p className="text-gray-500 mb-8">Page not found.</p>
                 <button 
-                  onClick={() => window.location.href = '/'}
+                  onClick={() => window.location.href = baseUrl}
                   className="bg-cyan-500 text-black px-8 py-3 rounded-xl font-bold hover:bg-cyan-400 transition-all"
                 >
                   Back to Login

@@ -210,14 +210,41 @@ If missing, only AI-related actions fail while core app features continue to wor
 
 ## 🚢 Deployment
 
+### GitHub Pages (Recommended)
+
+This repository now includes a ready workflow at `.github/workflows/deploy.yml`.
+
+1. Push your code to GitHub (default branch: `main`).
+
+2. Add your secret:
+- GitHub repo -> `Settings` -> `Secrets and variables` -> `Actions` -> `New repository secret`
+- Name: `GEMINI_API_KEY`
+- Value: your Gemini API key
+
+3. Enable Pages deployment source:
+- GitHub repo -> `Settings` -> `Pages`
+- Under `Build and deployment`, set `Source` to `GitHub Actions`
+
+4. Trigger deploy:
+- Push to `main`, or run the workflow manually from the `Actions` tab.
+
+5. Open your live site:
+- `https://<your-github-username>.github.io/<your-repo-name>/`
+
+Notes:
+- The workflow automatically builds with Vite and deploys the `dist` folder.
+- SPA fallback is configured (`404.html`) so direct route refreshes work.
+- If `GEMINI_API_KEY` is not set, non-AI app features still work, but AI features fail.
+
+### Other Static Hosts
+
 1. Build the app
 
 ```bash
 npm run build
 ```
 
-2. Deploy `dist` to any static host
-
+2. Deploy `dist` to any static host:
 - Firebase Hosting
 - Vercel
 - Netlify
