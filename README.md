@@ -260,7 +260,3 @@ npm run build
 - API/webhook support for external platforms and campus systems
 
 ---
-
-## 📄 License
-
-Add your preferred license (for example: MIT).
