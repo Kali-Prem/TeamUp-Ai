@@ -32,6 +32,26 @@ TeamUp provides an end-to-end workflow for student hackathon collaboration:
 
 ---
 
+## 🏆 Hackathon Achievement
+
+TeamUp AI won the **Inforia 2K26 Hackathon** organized by IES College of Technology, Bhopal.
+
+This project was built using:
+- Google AI Studio
+- Gemini AI
+- React + TypeScript
+- Firebase
+
+### 🌐 Live Demo
+🔗 https://kali-prem.github.io/TeamUp-Ai/
+
+### 📸 Achievement
+- Hackathon Winner 🏆
+- Built under hackathon timeline constraints
+- Focused on AI-powered team collaboration and matchmaking
+
+---
+
 ## ✨ Feature Highlights
 
 ### 🔐 Authentication and Roles
